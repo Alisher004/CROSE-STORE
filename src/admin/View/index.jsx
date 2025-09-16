@@ -118,9 +118,9 @@ const ProductList = () => {
 
   return (
     <>
-      <div className="products-container">
-        <div className="products-header">
-          <div className="header-content">
+      <div className="products-container2">
+        <div className="products-header2">
+          <div className="header-content2">
             <h1>Продукттарды башкаруу</h1>
             <p>Бардык продукттарды көрүү, өзгөртүү жана өчүрүү</p>
           </div>
@@ -163,7 +163,7 @@ const ProductList = () => {
 
         <div className="products-grid">
           {filteredProducts.map((product) => (
-            <div key={product.id} className="product-card">
+            <div key={product.id} className="product-card2">
               <div className="product-image">
                 <img src={product.avatar} alt={product.name} />
                 <div className="product-overlay">
@@ -183,7 +183,7 @@ const ProductList = () => {
                   </button>
                 </div>
               </div>
-              <div className="product-info">
+              <div className="product-info2">
                 <h3>{product.name}</h3>
                 <p className="product-category">{product.category}</p>
                 <p className="product-price">
