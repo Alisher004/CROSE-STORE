@@ -73,9 +73,7 @@ function SearchCom() {
     );
 
   return (
-    <div>
-      <div className="main3-input3 container"></div>
-
+    <div className="main3-input3">
       {cartMessage && <div className="alert-cart">{cartMessage}</div>}
       {wishMessage && <div className="alert-wish">{wishMessage}</div>}
 
